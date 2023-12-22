@@ -65,7 +65,7 @@ public class InventoryDragItem : MonoBehaviour, IBeginDragHandler, IDragHandler,
     {
         Sprite draggingItem = _source.GetItem();
 
-        if(draggingItem != null)
+        if (draggingItem != null)
         {
             _source.RemoveItem();
             container.AddItem(draggingItem);
